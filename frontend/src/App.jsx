@@ -26,7 +26,6 @@ function App() {
 
   useEffect(() => {
     const page = searchParams.get("page") || 1;
-
     if (location.pathname.includes("tags")) {
       const tag = location.pathname.split("/").at(-1).replace("-", " ");
       fetchData(parseInt(page), tag);
