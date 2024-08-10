@@ -69,7 +69,7 @@ const SignUp = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center">
       <div className="max-w-md w-full mx-auto p-8 bg-white rounded shadow-md">
-        <header className="text-3xl font-bold text-center mb-8">CODEHELP BLOGS</header>
+        <header className="text-3xl font-bold text-center mb-8">CODEHELP</header>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
             <label className="block text-sm font-medium text-gray-700">Full Name</label>
